@@ -2,10 +2,16 @@
   margin: auto;
   max-width: 500px;
   font-family: sans-serif;
+  background-color: antiquewhite;
+  padding: 20px;
+  border-radius: 20px;
+  margin-top: 50px;
 }
 
 .heading {
   color: rebeccapurple;
+  padding: 10px;
+  margin-left: 10px;
 }
 .nav-links {
   display: flex;
@@ -14,6 +20,10 @@
 }
 .nav-link-item {
   padding-right: 2rem;
+  border:2px solid rgb(126, 111, 111);
+  padding: 10px;
+  margin-left: 20px;
+  
 }
 .nav-link-text {
   color: black;
@@ -24,5 +34,8 @@
   font-size: 3rem;
   color: gray;
   font-weight: 700;
-  margin: 3rem 0;
+  margin: 3rem 15px;
+}
+.content{
+  margin-left: 20px;
 }
