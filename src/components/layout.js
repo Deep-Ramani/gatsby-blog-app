@@ -40,6 +40,7 @@ const Layout = ({ pageTitle, children }) => {
               Blog
             </Link>
           </li>
+          
         </ul>
       </nav>
       <main>

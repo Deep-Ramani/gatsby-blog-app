@@ -11,7 +11,8 @@ const BlogPage = ({ data }) => {
             <Link
               to={`/blog/${node.frontmatter.slug}`}
               style={{ textDecoration: 'none' }}
-            >
+            > 
+            
               {node.frontmatter.title}
             </Link>
           </h2>
